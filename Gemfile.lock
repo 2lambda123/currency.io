@@ -17,7 +17,7 @@ GEM
       rake (>= 0.8.1)
     mime-types (1.16)
     rack (2.2.12)
-    rack-cache (0.5.3)
+    rack-cache (1.2)
       rack (>= 0.4)
     rack-client (0.3.1.pre.f)
       rack (>= 1.0.0)
