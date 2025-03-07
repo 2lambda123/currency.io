@@ -4,7 +4,9 @@ GEM
     configuration (1.2.0)
     daemons (1.1.0)
     eventmachine (0.12.10)
-    haml (3.0.24)
+    haml (5.0.0)
+      temple (>= 0.8.0)
+      tilt
     heroku (1.14.9)
       json_pure (>= 1.2.0, < 1.5.0)
       launchy (~> 0.3.2)
@@ -24,10 +26,12 @@ GEM
       mime-types (>= 1.16)
     sinatra (1.0)
       rack (>= 1.0)
+    temple (0.10.3)
     thin (1.2.7)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    tilt (2.6.0)
     yajl-ruby (0.7.8)
 
 PLATFORMS
